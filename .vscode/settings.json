@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/813e2cfb-3ebc-4999-a923-57c3b354f205/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/medicall",
+    "appService.deploySubpath": "build"
+}
