@@ -3,6 +3,7 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import store from "../store";
 import Login from "../components/authentication/Login";
+import Error from "../components/Home/home";
 
 const AppRouter = () => (
   <Provider store={store}>
@@ -10,6 +11,7 @@ const AppRouter = () => (
       <div>
         <Switch>
           <Route path="/login" component={Login} />
+          <Route path="**" component={Error} />
         </Switch>
       </div>
     </BrowserRouter>
